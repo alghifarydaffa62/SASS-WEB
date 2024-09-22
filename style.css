@@ -1,0 +1,28 @@
+body {
+  font-family: monospace;
+  background-color: #0e283a;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav h3 {
+  font-size: 20px;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+}
+nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=style.css.map */

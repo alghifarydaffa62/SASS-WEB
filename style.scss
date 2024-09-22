@@ -1,0 +1,31 @@
+$primary-color: #0e283a;
+$font-type: monospace;
+body {
+    font-family: $font-type;
+    background-color: $primary-color;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+    h3 {
+        font-size: 20px;
+    }
+    ul {
+        list-style-type: none;
+        display: flex;
+        gap: 2rem;
+    }
+
+    li a {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+    } 
+
+}
